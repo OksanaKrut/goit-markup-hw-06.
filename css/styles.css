@@ -483,6 +483,17 @@ a {
     justify-content: center;
 }
 
+/* .modal-check-text .modal-check-span{
+    width: 16px;
+    height: 15px;
+    border: 2px solid #212121;
+    border-radius: 2px;  
+    margin-right: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+
 .modal-check-icon {
     fill: transparent;
 }
@@ -1181,6 +1192,9 @@ a {
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.online-input:not(:placeholder-shown) {
+    color: #ffffff;
+}
 
 .online-input:focus,
 .online-input:hover {
